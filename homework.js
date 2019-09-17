@@ -125,6 +125,5 @@ function gcd(a, b) {
 			b = (b - a) / 2;
 		}
 	}
-	let g = a;
-	return g * 2 ** d;
+	return a * 2 ** d;
 }
